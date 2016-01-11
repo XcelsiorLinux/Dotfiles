@@ -149,7 +149,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-#Charger le fond d'écran
+# Charger le fond d'écran
 exec --no-startup-id feh --bg-scale /home/alexandre/Images/Cockpit_Scarebus.jpg
 
 # Contrôle du volume avec PulseAudio
@@ -176,7 +176,7 @@ bar {
   tray_output primary
 }
 
-#Configuration des couleurs de i3wm
+# Configuration des couleurs de i3wm
 # class                 border  backgr. text    indicator
 client.focused          #268bd2 #268bd2 #eee8d5 #2e9ef4
 client.focused_inactive #333333 #5f676a #ffffff #484e50
