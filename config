@@ -92,7 +92,7 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-# Workspace bindings
+# Lier les espaces de travail
 set $workspace1 ""
 set $workspace2 ""
 set $workspace3 ""
@@ -184,12 +184,12 @@ bar {
         binding_mode       #cb4b16 #cb4b16 #93a1a1
         }
 	position top
-	status_command i3status
+	status_command /home/alexandre/.radeon-gpu-temp.bash
   tray_output primary
 }
 
 #Configuration des couleurs de i3wm
-# class                 border  backgr. text    indicator
+# Classe                Bordure Fond    Texte   Indicateur
 client.focused          #268bd2 #268bd2 #eee8d5 #2e9ef4
 client.focused_inactive #333333 #5f676a #ffffff #484e50
 client.unfocused        #333333 #222222 #888888 #292d2e
