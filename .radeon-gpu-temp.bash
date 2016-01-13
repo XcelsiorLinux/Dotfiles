@@ -1,5 +1,5 @@
 #!/bin/sh
-# Shell script to add CPU temperature and GPU temperature from an AMD GPU using proprietary driver
+# Shell script to add CPU temperature and GPU temperature from an AMD GPU using proprietary driver to i3bar
 i3status | (read line && echo $line && read line && echo $line && while :
 do
 	read line
